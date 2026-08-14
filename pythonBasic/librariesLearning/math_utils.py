@@ -1,4 +1,4 @@
-
+# example of module
 def add_numbers(a, b):  # function with two parameters
     return a + b  # returning the sum of the two parameters 
 

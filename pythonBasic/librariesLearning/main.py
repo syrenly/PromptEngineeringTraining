@@ -2,7 +2,7 @@
 # Modules allow you to organize your code into separate files, making it easier to manage and reuse.
 # each module contains one task
 
-import math_utils
+import pythonBasic.librariesLearning.math_utils as math_utils
 import math
 import random
 import datetime
