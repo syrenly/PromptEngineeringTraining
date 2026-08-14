@@ -33,8 +33,4 @@ This file lists the contents of the pythonBasic
 
 - [librariesLearning/main.py](librariesLearning/main.py) — modules and packages
 - [librariesLearning/math_utils.py](librariesLearning/math_utils.py) — example fo module
-- [librariesLearning/**init**.py]([librariesLearning/__init__.py) — file to make the folder a package
-
-## Summary
-
-This index is intended to help quickly identify the topic of each lesson before opening the file.
+- [librariesLearning/\_\_init\_\_.py](librariesLearning/__init__.py) — file to make the folder a package
