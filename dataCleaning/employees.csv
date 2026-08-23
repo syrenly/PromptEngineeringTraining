@@ -1,0 +1,7 @@
+id,name,age,email,country,salary
+1,Kate,21,kate@email.com,USA,27100
+2,John,,,U.S.A,30000
+3,Simon,28 years,john@email.com,Canada,
+4,Bob,30,bob@email.com,brazil,41000
+4,Bob,,bob@email.com,,
+5,Mary,25 years,mary,italy,40000
