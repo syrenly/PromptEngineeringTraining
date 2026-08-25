@@ -1,0 +1,101 @@
+id,name,age,email,country,salary
+1,Sam,,,France,32387
+2,Olivia,,olivia@yahoo.com,U.S.A,50717
+3,Noah,twenty five,,France,54567
+4,Paul,twenty five,,canada,38606
+5,Alice, ,alice@gmail,USA,not_available
+6,Frank, ,frank@gmail,canada,
+7,Tina,,,USA,45896
+8,Olivia,23,olivia@gmail, USA ,not_available
+9,Grace,31,grace@gmail,india,not_available
+10,Jack,49,jack@gmail.com,canada,not_available
+11,Liam, ,liam@gmail,Canada,not_available
+12,Sam, ,, USA ,
+13,Paul,20,paul@gmail,canada,55706
+14,Mia,43,mia@hotmail.com, USA ,
+15,Tina, ,,Canada,
+16,Paul, ,,Germany ,52428
+17,David,,david@gmail,Germany ,not_available
+18,Sam,twenty five,sam@hotmail.com,USA,
+19,Jack, ,jack@gmail,Germany ,
+20,Sam, ,,Canada,47240
+21,Liam, ,liam@gmail,India,44021
+22,David,twenty five,david@gmail, USA ,
+23,Quinn, ,quinn@outlook.com,U.S.A,
+24,Quinn,26,,U.S.A,
+25,Bob,58,bob@hotmail.com, USA ,57336
+26,Grace, ,, UK,34411
+27,Hank,twenty five,hank@hotmail.com, UK,
+28,Sam, ,,Canada,
+29,Mia,33,mia@gmail, UK,
+30,Jack,57,jack@outlook.com,India,37346
+31,Mia,,mia@gmail,Germany ,not_available
+32,Mia,twenty five,,USA,84893
+33,Bob, ,bob@gmail.com,india,94810
+34,Noah,59,,India,not_available
+35,Liam,,liam@gmail,India,
+36,Ivy,,,canada,not_available
+37,Bob,twenty five,bob@gmail.com,canada,74333
+38,Hank,,, USA ,80332
+39,Jack, ,jack@hotmail.com, USA ,not_available
+40,Jack,twenty five,jack@gmail,USA,not_available
+41,Grace,34,grace@hotmail.com,France,
+42,Rose, ,rose@gmail.com,Canada,not_available
+43,Ivy,42,ivy@gmail,Canada,50901
+44,Quinn,,, UK,not_available
+45,Liam,twenty five,liam@gmail,USA,82035
+46,Tina,twenty five,tina@hotmail.com,india,
+47,Mia,30,mia@hotmail.com,U.S.A,64907
+48,Grace,twenty five,,France,60610
+49,Noah,,,Germany ,89904
+50,Rose,,rose@yahoo.com,France,not_available
+51,Noah,52,noah@hotmail.com,India,67970
+52,Olivia, ,olivia@gmail,India,
+53,Liam,twenty five,liam@outlook.com, UK,not_available
+54,Alice,30,,France,not_available
+55,Bob,twenty five,,U.S.A,
+56,Alice,36,alice@gmail,canada,
+57,Quinn,43,, UK,
+58,Olivia,twenty five,olivia@gmail,canada,78848
+59,Frank,twenty five,,Canada,not_available
+60,Frank, ,frank@hotmail.com,India,not_available
+61,Charlie,54,, USA ,
+62,Rose,47,rose@gmail, USA ,
+63,Charlie,29,charlie@yahoo.com,Germany ,
+64,Quinn, ,,India,not_available
+65,Hank,,,USA,
+66,David,twenty five,,Canada,
+67,Grace,twenty five,grace@gmail,Germany ,
+68,Tina,,,india,not_available
+69,Frank, ,frank@gmail,Germany ,not_available
+70,David, ,david@gmail.com,canada,
+71,Quinn,36,, UK,76322
+72,Noah,53,,USA,98156
+73,David, ,david@gmail,Germany ,87328
+74,Ivy,twenty five,ivy@gmail,india,not_available
+75,Olivia,,,Germany ,not_available
+76,Sam,,sam@gmail,canada,67753
+77,Alice, ,,canada,
+78,Jack, ,jack@gmail.com,France,
+79,Liam,,liam@yahoo.com,U.S.A,83207
+80,Rose,51,,USA,not_available
+81,Olivia,twenty five,olivia@outlook.com,Canada,62928
+82,Quinn,56,quinn@gmail,Germany ,
+83,Alice,,,Germany ,not_available
+84,Liam,52,liam@gmail,india,not_available
+85,Quinn, ,quinn@gmail.com,Germany ,
+86,Mia, ,mia@gmail,Germany ,47978
+87,Olivia,27,olivia@gmail,France,not_available
+88,Frank,21,frank@gmail,U.S.A,
+89,Olivia,,, UK,
+90,Liam,,liam@gmail,Germany ,
+91,Mia,twenty five,,canada,75368
+92,Bob,twenty five,bob@gmail,India,not_available
+93,Tina,25,tina@gmail.com,France,
+94,Uma,twenty five,uma@gmail.com, UK,
+95,Noah,31,noah@gmail,U.S.A,72953
+96,Sam,,sam@gmail,Germany ,
+97,Tina, ,,U.S.A,not_available
+98,Alice, ,alice@gmail.com,India,
+99,Alice,27,alice@gmail.com,Canada,
+100,Hank,twenty five,hank@gmail, USA ,not_available

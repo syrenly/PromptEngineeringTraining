@@ -2,12 +2,12 @@
 # prepare raw data to be ready to be used by AI and other system processes.
 # remove duplicates, invalid entries, normalize names and numbers
 # ask AI the following prompt: act as an AI engineer: I've a messy csv file, suggest python steps to clean age, salary,country, duplicates by email field. Beginner friendly response, use pandas and no other libraries . Step by step python logic.
-# install pandas library
+# install pandas library => is a python library used to store, clean, analyze and manipulate data.
 
 import pandas as pd
 
 # 1. Load
-df = pd.read_csv("dataCleaning\\employees.csv")
+df = pd.read_csv("dataHandling\\employee_data.csv")
 original_columns = df.columns.tolist()
 
 # 2. Clean column names
@@ -84,4 +84,4 @@ print("\nMissing values:")
 print(df.isna().sum())
 
 # 10. Save
-df.to_csv("dataCleaning\\employees_cleaned.csv", index=False)
+df.to_csv("dataHandling\\employees_cleaned.csv", index=False)
