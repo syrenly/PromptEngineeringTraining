@@ -1,0 +1,10 @@
+column,data_type,missing_count,missing_percentage,unique_values
+id,int64,0,0.0,100
+name,str,0,0.0,19
+age,float64,0,0.0,24
+email,string,71,71.0,25
+country,str,0,0.0,7
+salary,float64,0,0.0,65
+department,str,0,0.0,3
+email_valid,boolean,0,0.0,2
+missing_required,bool,0,0.0,2
