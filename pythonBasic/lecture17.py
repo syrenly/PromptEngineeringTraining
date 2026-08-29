@@ -5,26 +5,23 @@ import requests
 
 # GET
 
-response=requests.get("https://api.github.com")
+response = requests.get("https://api.github.com")
 # print(response) # <Response [200]>
 # print(response.text) # metadata and response
 print(response.status_code)
-data=response.json() # turn into json
+data = response.json()  # turn into json
 print(data)
 
 # POST
 
-url="https://dummyjson.com/test"
-payload={"name":"Alice","role":"AI Engineer"}
-response=requests.post(url,json=payload)
+url = "https://dummyjson.com/test"
+payload = {"name": "Alice", "role": "AI Engineer"}
+response = requests.post(url, json=payload)
 print(response.json)
 
-header={
-    "Authorization":"Bearer YOUR_API_KEY",
-    "Content_Type": "application/json"
-}
+header = {"Authorization": "Bearer YOUR_API_KEY", "Content_Type": "application/json"}
 
-if response.status_code==200:
+if response.status_code == 200:
     print("success")
 else:
     print("error")

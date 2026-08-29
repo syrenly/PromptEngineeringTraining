@@ -1,5 +1,5 @@
-# dictionary is a collection of key-value pairs. Each key is unique and meaningful, and it maps to a specific value. 
-# Dictionaries are mutable, meaning you can add, remove, or change key-value pairs after the dictionary has been created. 
+# dictionary is a collection of key-value pairs. Each key is unique and meaningful, and it maps to a specific value.
+# Dictionaries are mutable, meaning you can add, remove, or change key-value pairs after the dictionary has been created.
 
 student = {
     "name": "John Doe",
@@ -18,11 +18,13 @@ status = {
 }
 
 # accessing values using keys
-print("Student name:", student["name"]) 
+print("Student name:", student["name"])
 
 # accessing values using the get() method, which returns None if the key is not found instead of raising an error
 print("Student age:", student.get("age"))
-print("Student grade:", student.get("grade", "Not available"))  # default value if key not found
+print(
+    "Student grade:", student.get("grade", "Not available")
+)  # default value if key not found
 
 # update existing value
 student["age"] = 21  # updating the value for the key "age"

@@ -8,6 +8,7 @@
 
 import csv
 
+
 def clean_age(value):
     value = value.strip()
 
@@ -101,7 +102,9 @@ for row in rows:
 
 
 # 4. Save cleaned CSV
-with open("dataHandling\\employees_cleaned.csv", "w", newline="", encoding="utf-8") as file:
+with open(
+    "dataHandling\\employees_cleaned.csv", "w", newline="", encoding="utf-8"
+) as file:
     fieldnames = cleaned_rows[0].keys()
     writer = csv.DictWriter(file, fieldnames=fieldnames)
 

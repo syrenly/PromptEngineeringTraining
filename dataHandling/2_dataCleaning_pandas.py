@@ -14,12 +14,7 @@ original_columns = df.columns.tolist()
 df.columns = df.columns.str.strip().str.lower()
 
 # 3. Format email
-df["email"] = (
-    df["email"]
-    .astype(str)
-    .str.strip()
-    .str.lower()
-)
+df["email"] = df["email"].astype(str).str.strip().str.lower()
 
 # 4. Clean age
 df["age"] = df["age"].astype(str).str.strip()
@@ -46,12 +41,7 @@ df["salary"] = pd.to_numeric(df["salary"], errors="coerce")
 df.loc[df["salary"] < 0, "salary"] = pd.NA
 
 # 6. Clean country
-df["country"] = (
-    df["country"]
-    .astype(str)
-    .str.strip()
-    .str.lower()
-)
+df["country"] = df["country"].astype(str).str.strip().str.lower()
 
 country_mapping = {
     "USA": "U.S.A.",
@@ -66,10 +56,7 @@ df["email"] = df["email"].replace("", pd.NA)
 
 # If you simply want to remove duplicates: df = df.drop_duplicates(subset="email", keep="first"); I'm preferring to merge duplicates rows instead.
 # Merge duplicate emails
-df = (
-    df.groupby("email", as_index=False, sort=False)
-      .first()
-)
+df = df.groupby("email", as_index=False, sort=False).first()
 
 # 8. Remove rows without an email
 df = df.dropna(subset=["email"])

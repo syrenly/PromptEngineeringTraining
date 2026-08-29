@@ -1,5 +1,5 @@
 # if else elif statements
-age=16
+age = 16
 if age >= 18:
     print("You are an adult.")
 elif age >= 10:

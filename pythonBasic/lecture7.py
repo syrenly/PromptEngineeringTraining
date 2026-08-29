@@ -13,11 +13,11 @@ print("Third item in the tuple:", thirdItem)
 print("Last item in the tuple:", myTuple[-1])
 
 # tuple slicing includes the start index and excludes the end index
-slicedTuple = myTuple[1:4]  
+slicedTuple = myTuple[1:4]
 print("Sliced tuple (1:4):", slicedTuple)
 
 # since tuple are immutable, we cannot change their values, but we can concatenate tuples to create a new one
-newTuple = myTuple + (6, 7, 8)  
+newTuple = myTuple + (6, 7, 8)
 print("New tuple after concatenation:", newTuple)
 
 print("Length of the tuple:", len(myTuple))

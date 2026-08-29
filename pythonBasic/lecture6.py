@@ -23,7 +23,7 @@ accessingReversedList = myList[::-1]
 print("Accessing reversed list:", accessingReversedList)
 
 accessingListLength = len(myList)
-print("Length of the list:", accessingListLength)   
+print("Length of the list:", accessingListLength)
 
 accessingListMaxValue = max(myList)
 print("Max value in the list:", accessingListMaxValue)
@@ -43,7 +43,7 @@ print("Count of item 3 in the list:", accessingListCount)
 # 2 dimensional list (list of lists)
 my2DList = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 print("2D List:", my2DList)
-print("Accessing item in 2D list:", my2DList[1][2])  # Accessing item 6 
+print("Accessing item in 2D list:", my2DList[1][2])  # Accessing item 6
 
 # 3 dimensional list (list of lists of lists)
 my3DList = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]]
@@ -64,5 +64,6 @@ print("List after popping the last item:", myList)
 myList.insert(3, 14)  # inserting an item at a specific index
 print("List after inserting 14 at index 3:", myList)
 
-myList.sort(); # warning! can't sort a list with mixed data types (int and str)
+myList.sort()
+# warning! can't sort a list with mixed data types (int and str)
 print("List after sorting:", myList)
