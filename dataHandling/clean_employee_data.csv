@@ -1,0 +1,21 @@
+employee_id,name,age,department,salary,email
+1,Ali Khan,25,IT,60000,ali.khan@company.com
+2,Sara Ahmed,28,HR,52000,sara.ahmed@company.com
+3,Usman Tariq,30,Sales,58000,usman.tariq@company.com
+4,Ayesha Noor,27,IT,61000,ayesha.noor@company.com
+5,Bilal Hussain,35,Sales,75000,bilal.hussain@company.com
+6,Hina Raza,29,HR,54000,hina.raza@company.com
+7,Omar Sheikh,32,IT,67000,omar.sheikh@company.com
+8,Fatima Zahra,26,Marketing,50000,fatima.zahra@company.com
+9,Danish Ali,31,Sales,72000,danish.ali@company.com
+10,Zainab Malik,24,Marketing,51000,zainab.malik@company.com
+11,Hassan Rauf,36,IT,69000,hassan.rauf@company.com
+12,Mariam Iqbal,33,HR,56000,mariam.iqbal@company.com
+13,Saad Qureshi,29,Sales,73000,saad.qureshi@company.com
+14,Nimra Khalid,28,Marketing,52000,nimra.khalid@company.com
+15,Talha Saeed,34,IT,68000,talha.saeed@company.com
+16,Iqra Javed,27,HR,55000,iqra.javed@company.com
+17,Hamza Farooq,30,Sales,71000,hamza.farooq@company.com
+18,Mehwish Aslam,31,Marketing,53000,mehwish.aslam@company.com
+19,Ahmad Nawaz,35,IT,70000,ahmad.nawaz@company.com
+20,Rabia Younis,26,HR,57000,rabia.younis@company.com

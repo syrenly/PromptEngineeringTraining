@@ -1,0 +1,122 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Act as a data analyst. I have loaded this dataset (attach the file). Suggest key questions I should explore before visualization
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Your dataset has 20 employees and 6 fields: employee ID, name, age, department, salary, and email.
+
+Before choosing visualizations, I’d explore these questions:
+
+### 1. Workforce composition
+
+* How many employees are in each department?
+* Which departments are largest/smallest?
+* What proportion of the workforce does each department represent?
+
+### 2. Salary structure
+
+* What are the overall minimum, maximum, median, and average salaries?
+* How widely do salaries vary within the company?
+* Which departments have the highest and lowest average salary?
+* Are there unusually high or low salaries that might be outliers?
+
+### 3. Age profile
+
+* What is the age distribution of employees?
+* Which departments have the youngest/oldest employees?
+* Is there a relationship between age and salary?
+
+### 4. Department-level differences
+
+* Does salary differ substantially between departments?
+* Does employee age differ by department?
+* Are some departments more heterogeneous than others in terms of salary or age?
+
+### 5. Relationships worth investigating
+
+The most potentially interesting analytical question is:
+
+> Does employee age appear to be associated with salary, and does that relationship differ by department?
+
+With this dataset, that could lead naturally to a scatter plot of age vs. salary, supplemented by department.
+
+### 6. Data-quality questions before visualization
+
+Also check:
+
+* Are `employee_id` values unique?
+* Are there missing ages, salaries, departments, or emails?
+* Are salary and age stored as numeric values and within plausible ranges?
+* Are department names consistently spelled/capitalized?
+* Are there duplicate employee records?
+
+One important limitation: with only 20 employees and fields limited to demographics, department, and salary, you can identify patterns and relationships, but you cannot meaningfully investigate things such as performance, tenure, promotion, attrition, or salary progression because those variables aren't present.
+
+If I were prioritizing the analysis, I'd start with: (1) department size, (2) salary distribution, (3) salary by department, and (4) age vs. salary.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Given this dataset with age, salary, and department, which visualizations best explain patterns? Explain why.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+For this dataset, I’d use four visualizations, each answering a different question:
+
+| Visualization | What to plot                                        | Why it works                                                                                                                                   |
+| ------------- | --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Scatter plot  | Age → Salary, with Department as the grouping/color | Best for seeing whether salary tends to increase with age and whether departments behave differently. It also reveals outliers.                |
+| Box plot      | Salary by Department                                | Best for comparing salary distributions between departments—not just their averages. It shows median, spread, and unusually high/low salaries. |
+| Histogram     | Salary distribution                                 | Shows the overall shape of salaries: concentration, spread, skewness, and possible outliers.                                                   |
+| Bar chart     | Employee count by Department                        | Establishes the size of each department, which is important context when interpreting salary differences.                                      |
+
+### 1. Most important: Age vs. salary scatter plot
+
+This is probably the strongest visualization for your particular variables.
+
+* X-axis: age
+* Y-axis: salary
+* Department: separate color/group
+
+It lets you assess several things simultaneously:
+
+* Is there a positive or negative association between age and salary?
+* Are there distinct salary patterns by department?
+* Are particular employees unusual relative to their peers?
+* Does the age–salary relationship appear different across departments?
+
+A scatter plot is preferable to a line chart here because age and salary are continuous variables and there is no meaningful sequential relationship between individual employees.
+
+### 2. Salary by department: box plot
+
+A box plot would complement the scatter plot particularly well.
+
+It answers: “How does the salary distribution differ across departments?”
+
+You can see:
+
+* median salary,
+* variability within each department,
+* overlap between departments,
+* potential salary outliers.
+
+This is substantially more informative than a simple bar chart of average salary, especially with a small dataset like this one.
+
+### 3. Salary histogram
+
+Use a histogram to understand the salary distribution across all 20 employees.
+
+This helps distinguish, for example, a roughly symmetric distribution from one dominated by a few high earners. With only 20 observations, I'd keep the number of bins fairly small so you don't create spurious patterns.
+
+### 4. Department size bar chart
+
+A simple bar chart of employee counts by department provides necessary context.
+
+If one department has 10 employees and another has only 2, comparing their average salaries without seeing their sample sizes could be misleading.
+
+### Recommended analytical sequence
+
+I'd present them in this order:
+
+1. Department size → understand the composition of the workforce.
+2. Salary distribution → understand the overall compensation structure.
+3. Salary by department → identify departmental differences.
+4. Age vs. salary → investigate the relationship between the two numeric variables.
+
+The key visualization is therefore the scatter plot, while the box plot is the best companion for determining whether apparent salary differences are genuinely departmental patterns rather than just individual observations.
