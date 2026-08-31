@@ -1,0 +1,17 @@
+# Machine Learning = teach computers to learn patterns from the data instead of explicitly programming rules
+
+# SUPERVISED LEARNING = is like learning with a teacher; you are given questions, correct answers, and practical examples as well.
+# The model learns how to map input to have correct output in supervised learning.
+#
+# In spam email detection, the user marks himself the spam and the system learns to recognize them finding patterns and keywords.
+#
+# Use supervised learning when you want prediction, when you know past outcomes, and when you need automation.
+
+# UNSUPERVISED LEARNING = the system must find out by itself the rules. Imagine learning without answers: no labels, no teacher, just raw data.
+# In this case, the system analyze the raw data, finds hidden patterns and shows insights tp the business.
+#
+# In a shop, AI has access to the list of customers, with purchases, final prices, timestamp, etc.
+# It groups customers into homogeneous categories by analyzing characteristics such as purchasing behavior, demographics, and browsing habits.
+# Clustering algorithms can therefore identify groups of customers with similar characteristics, such as high spenders, occasional shoppers, or price-conscious customers.
+#
+# Use unsupervised learning when you want insights and when you explore unknown data, when you want insights and when you have no labels.
